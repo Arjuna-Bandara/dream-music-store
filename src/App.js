@@ -12,6 +12,7 @@ import AboutPage from './Components/AboutPage/AboutPage';
 import FoodInfoPage from './Components/FoodInfoPage/FoodInfo';
 import HotDealsPage from './Components/HotDealsPage/HotDealsPage';
 import LoginPage from './Components/LoginPage/LoginPage';
+import SignUpPage from './Components/SignUpPage/SignUpPage';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/food" element={<FoodInfoPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
           <Route path="*" element={<h2>404 Page Not Found</h2>} />
         </Routes>
       </div>

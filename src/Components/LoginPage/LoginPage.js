@@ -36,29 +36,9 @@ function LoginPage() {
 
             <div className="container form-boader col-lg-3">
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <h3>Create an account to get personalized results</h3>
+                    <h3>Login page</h3>
 
-                    <div className="form-group">
-                        <label>
-                            <span>First Name</span>
-                            <input className="form-control"
-                                {...register("first-name")}
-                                placeholder="John"
-                                type="text"
-                            />
-                        </label>
-                    </div>
 
-                    <div className="form-group">
-                        <label>
-                            <span>Last Name</span>
-                            <input className="form-control"
-                                {...register("last-name")}
-                                placeholder="Doe"
-                                type="text"
-                            />
-                        </label>
-                    </div>
 
                     <div className="form-group">
                         <label>

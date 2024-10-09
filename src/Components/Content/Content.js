@@ -14,6 +14,7 @@ function Content() {
         { recipeName: 'Sushi', ingredienet: 'Vinegared rice, raw fish (such as tuna or salmon), seaweed, vegetables, soy sauce, wasabi, pickled ginger', description: 'Sushi is a Japanese dish featuring vinegared rice combined with various ingredienet, including raw fish and vegetables. It is often served with soy sauce, wasabi, and pickled ginger for added flavor.', imageName: 'kottu.jpg' },
         { recipeName: 'Tacos', ingredienet: 'Corn or flour tortillas, meat (such as beef, chicken, or pork), cheese, lettuce, tomatoes, onions, cilantro, lime, salsa', description: 'Tacos are a traditional Mexican dish consisting of a tortilla filled with various ingredienet. They are versatile and can be customized with different meats, vegetables, and toppings.', imageName: 'kottu.jpg' }
     ];
+
  
     const [dataFromChild, setDataFromChild] = useState("");
     const [itemCount, setItemCount] = useState(0);
