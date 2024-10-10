@@ -18,3 +18,12 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ## run json server
 
 npx json-server db.json --port=5000
+
+
+## color palate
+    <!-- 
+    #091057
+    #024CAA
+    #EC8305
+    #DBD3D3 
+    -->

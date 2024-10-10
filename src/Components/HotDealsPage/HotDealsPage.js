@@ -1,11 +1,13 @@
 import React from "react";
 import NavHeader from "../NavHeader/NavHeader";
 
-function HotDealsPage(){
-    return(
+function HotDealsPage() {
+    return (
         <>
             <NavHeader />
-            <h2>This is hot deals pages.</h2>
+            <div className="container">
+                <h2>🔥🔥 Hot deals 🔥🔥</h2>
+            </div>
         </>
     )
 }

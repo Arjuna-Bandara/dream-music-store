@@ -1,0 +1,61 @@
+
+/* <!-- 
+#091057
+#024CAA
+#EC8305
+#DBD3D3 
+--> */
+
+.navbar-custom{
+    background-color: #c2c4d4;
+    color: #000000;
+    border: none;
+}
+
+.navbar-custom:hover{
+    background-color: #c2c4d4e0;
+}
+
+.btn-cart{
+    background-color: #EC8305;
+    color: #000000;
+    border: none;
+}
+
+.btn-cart:hover{
+    background-color: #ec8405b7;
+}
+
+.btn-login{
+    background-color: #DBD3D3;
+    color: #000000;
+    border: none;
+}
+
+.btn-login:hover{
+    background-color: #dbd3d3b8;
+}
+
+.btn-signup{
+    background-color: #024CAA;
+    color: #000000;
+    border: none;
+}
+
+.btn-signup:hover{
+    background-color: #024baab7;
+}
+
+
+
+
+
+.custom-btn {
+    background-color: #ff5733; /* Your custom color */
+    color: white;
+    border: none; /* Optional: remove border */
+  }
+
+  .custom-btn:hover {
+    background-color: #e74c3c; /* Optional: change color on hover */
+  }
