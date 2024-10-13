@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import NavHeader from "../NavHeader/NavHeader";
 
 import "./SignUpPage.css"
+import { postData } from "../../Services/StoreService";
 
 
 function SignUpPage() {
@@ -24,7 +25,11 @@ function SignUpPage() {
             "password": ""
         }
     });
-    const onSubmit = (data) => alert(JSON.stringify(data));
+    // const onSubmit = (data) => alert(JSON.stringify(data));
+    const onSubmit = (data) => {
+        postData("/users",data);
+        alert("user added !")
+    }
 
     if (submissionId) {
         return <p>Thank you! Submission Id: {submissionId}</p>;
@@ -35,8 +40,8 @@ function SignUpPage() {
             <NavHeader />
 
             <div className="container form-boader col-lg-3">
-                <form onSubmit={handleSubmit(onSubmit)}>
-                    <h3>Sign up - Create an account to get personalized results</h3>
+                <form onSubmit={handleSubmit(onSubmit)} >
+                    <h3>Let's create an account </h3>
 
                     <div className="form-group">
                         <label>
@@ -65,7 +70,7 @@ function SignUpPage() {
                             <span>Email</span>
                             <input className="form-control"
                                 {...register("email")}
-                                placeholder="example@gmail.com"
+                                placeholder="abc@foo.com"
                                 type="email"
                             />
                         </label>
@@ -87,7 +92,7 @@ function SignUpPage() {
                                     },
                                 })}
                                 aria-invalid={errors["password"] ? "true" : "false"}
-                                placeholder="P@ssword"
+                                autoComplete="new-password" 
                                 type="password"
                             />
                         </label>

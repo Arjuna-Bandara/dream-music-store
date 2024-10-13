@@ -1,4 +1,4 @@
-#food-card{
+#item-card{
     margin-top: 10px;
     padding-top: 5px;
 }
@@ -10,4 +10,13 @@
 .card-boarder:hover{
     border: 3px solid blueviolet;
     box-shadow: 10px 10px lightgray;
+}
+
+.action-group{
+    padding-bottom: 5px;
+}
+
+.wish-item{
+    padding-left: 190px;
+    background-color: rgba(116, 121, 178, 0.422);
 }

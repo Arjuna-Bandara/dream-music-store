@@ -1,10 +1,16 @@
+/* #091057
+#024CAA
+#EC8305
+#DBD3D3  */
+
+
 .Footer{
     /* position : absolute; */
     /* bottom : 0; */
     height : 25px;
     margin-top : 40px;
     align-content: center;
-    background-color: rgba(53, 49, 159, 0.9);
+    background-color: #dbd3d390;
     color: rgba(0, 0, 0, 0.8);
 
     background-image: none;
@@ -20,30 +26,8 @@
 
 .Footer_contents {
 
-    height:40px; 
-    width: 1000px; 
-    margin:auto;
+    height:1.5em; 
+    width: 100%; 
+    text-align: center;
 
 }
-
-/* .footer {
-
-    height:24px; // Replace with the height your footer should be
-    width: 100%; // Don't change
-    background-image: none;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position: 0% 0%;
-    position: fixed;
-    bottom: 0pt;
-    left: 0pt;
-
-}    */
-
-/* .footer_contents {
-
-    height:24px; // Replace with the height your footer should be
-    width: 1000px; // Visible width of footer
-    margin:auto;
-
-} */
