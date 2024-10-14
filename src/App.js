@@ -13,38 +13,24 @@ import FoodInfoPage from './Components/FoodInfoPage/FoodInfo';
 import HotDealsPage from './Components/HotDealsPage/HotDealsPage';
 import LoginPage from './Components/LoginPage/LoginPage';
 import SignUpPage from './Components/SignUpPage/SignUpPage';
+import CartPage from './Components/CartPage/CartPage';
+import ItemInfoPage from './Components/ItemInfoPage/ItemInfoPage';
+
 
 function App() {
   return (
 
-    // <>
-    //   <div className="Container App">
-    //       <NavHeader />
-    //       <Content />
-    //       <Footer />
-    //   </div>
-    // </>
-
     <Router>
       <div>
-        {/* Navigation Links */}
-        {/* <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
 
-            </ul>
-          </nav> */}
 
         {/* Routes */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/hotdeals" element={<HotDealsPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/cart" element={<CartPage />} />
+          <Route path="/iteminfo" element={<ItemInfoPage />} />
           <Route path="/food" element={<FoodInfoPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
