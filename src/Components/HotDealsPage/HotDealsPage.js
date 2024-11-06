@@ -7,7 +7,11 @@ function HotDealsPage() {
             <NavHeader />
             <div className="container">
                 <h2>🔥🔥 Hot deals 🔥🔥</h2>
+
+                <h4>Stay tuned for hot details :)</h4>
             </div>
+
+
         </>
     )
 }

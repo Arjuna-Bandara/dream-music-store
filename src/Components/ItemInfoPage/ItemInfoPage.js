@@ -11,7 +11,7 @@ function ItemInfoPage({data}) {
             <div className="container">
                 <h2>Item info</h2>
 
-                <img src={KottuImg} className="card-img-top" alt="..." />
+                <img src={KottuImg} className="card-img-top" alt="..." style={{"width":"200px"}} />
 
                 <div className="card-body">
                     <h4 className="card-title"> </h4>

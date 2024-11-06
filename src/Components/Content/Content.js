@@ -83,8 +83,8 @@ function Content() {
                     }
 
                     {/* pass input to h3 */}
-                    <h3>Selected recipe: {dataFromChild}</h3>
-                    <h3>Selected item count: {itemCount}</h3>
+                    {/* <h3>Selected recipe: {dataFromChild}</h3>
+                    <h3>Selected item count: {itemCount}</h3> */}
                 </div>
             </div>
         </>
